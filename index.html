@@ -10,6 +10,10 @@
     <title>mixBlendModeCSS</title>
 </head>
 <body>
+    <header>
+    <span onclick="about()">About</span>
+    <span onclick="redirect()" class="span">Github</span>
+</header>
 <br>
    <div class="form" id="form">
     <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
@@ -56,9 +60,5 @@
   <div id="code" class="code" onclick="copy(this)"></div>
 <script src="script.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<footer>
-    <span onclick="about()">About</span>
-    <span onclick="redirect()" class="span">Github</span>
-</footer>
 </body>
 </html>
