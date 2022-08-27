@@ -4,8 +4,8 @@ body{
     font-family:sans-serif;
     background: #3375f6;
 }
-footer{
-    bottom: 0;
+header{
+    top: 0;
     left: 0;
     position: fixed;
     background-color: #fff;
@@ -13,7 +13,7 @@ footer{
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-footer .span{
+header .span{
     margin-left: 40px;
 }
 span{
