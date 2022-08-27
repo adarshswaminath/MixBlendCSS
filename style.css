@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    color: #fff;
+    font-family:sans-serif;
+    background: #3375f6;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #fff;
+    color: rgb(35, 35, 228);
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+footer .span{
+    margin-left: 40px;
+}
+span{
+    font-weight: bolder;
+}
+/* image upload form */
+.form{
+    height: 250px;
+    width: 300px;
+    background-color: #d8dfe9;
+    margin: auto;
+    color: rgb(35, 35, 228);
+    text-align: center;
+    vertical-align: center;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translate(-50%,-50%);
+    border-radius: 24px;
+    justify-content: center;
+}
+.form img{
+    margin-top: 40px;
+    box-shadow: #000 0px 3px 8px;
+}
+.form h4{
+    margin-top: 30px;
+}
+.form .label{
+    padding-top: 75px;
+    height: 75px;
+    width: 75px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+/* image displaying div */
+.background{
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+}
+/* result image */
+#result{
+    margin: auto;
+    height: auto;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 10px 10px 5px #000;
+    -moz-box-shadow: 10px 10px 5px #000;
+    -webkit-box-shadow: 10px 10px 5px #000;
+    -khtml-box-shadow: 10px 10px 5px #000;
+
+}
+/* color section */
+#colors{
+    visibility: hidden;
+    margin-top: 10px;
+    border-radius: 24px;
+    margin: auto ;
+}
+.color{
+    appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  height: 2em;
+  padding: 0;
+  width: 3em;
+  border-radius: 24px;
+}
+
+/* view the code */
+#code{
+    width: auto;
+    background-color: transparent;
+    color: #fff;
+    margin: auto;
+    border-radius: 12px;
+    height: auto;
+    border: 2px solid #fff;
+    visibility: hidden;
+}
+/* sections filter options on buttons */
+.container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 300px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    visibility:hidden;
+}
+.container button{
+    width: 300px;
+    flex: 0 0 100%;
+    border-radius: 24px !important;
+    scroll-snap-align: start;
+    font-weight: bolder !important;
+    background-color:transparent !important;
+    border: 2px solid ;
+}
