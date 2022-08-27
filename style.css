@@ -11,7 +11,7 @@ header{
     background-color: #fff;
     color: rgb(35, 35, 228);
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 0 0 20px 20px;
 }
 header .span{
     margin-left: 40px;
